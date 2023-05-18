@@ -1,0 +1,36 @@
+/*footer*/
+footer{
+    background-color: $bg-color;
+    padding: 25px;
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        font-size: 25px;
+    }
+
+    a{
+        color: $bg-second;
+    }
+
+    a:hover{
+        color: white;
+        transition: all 0.3s ease-in;
+    }
+    
+    .copyright{
+        text-align: center;
+        margin: 15px;
+        font-size: 20px;
+        color: $bg-white;
+    }
+    
+    
+}
+
+
+
+
+
+

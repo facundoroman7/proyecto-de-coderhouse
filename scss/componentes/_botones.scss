@@ -1,0 +1,11 @@
+.btn-mio{
+    background-color: $bg-color;
+    color: $bg-white;
+
+    .btn-mio:hover{
+        background-color: $bg-white;
+        color: $bg-color;
+        transition: all 0.4s ease-in;
+    }
+}
+

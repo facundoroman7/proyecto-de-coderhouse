@@ -1,0 +1,36 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* top: 0;
+    position: sticky; */
+    margin-top: 0;
+
+     ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+         a{
+            margin: 10px;
+            color: #3f3844;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: $font-serfif;
+            
+        }
+        a:hover{
+            color: $bg-second;
+            transition: all 0.5s ease;
+        }
+    }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+.pag-comencemos{
+
+    h2{
+        color: $bg-second;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+
+}
+
+.pag-comencemos-2{
+    h2{
+        text-align: center;
+        color: $bg-second;
+        margin: 20px;
+        
+    }
+
+    img:hover{
+        transform: scale(.90);
+    }
+    
+}
+
+.pag-comencemos-3{
+    text-align: center;
+    padding: 20px;
+    
+    h2{
+        color: $bg-second;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+}
