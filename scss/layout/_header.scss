@@ -1,0 +1,27 @@
+header{
+    background-color: $bg-color;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    color: $bg-white;
+
+    p{
+        font-size: 18px;
+    }
+    
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    
+    img{
+        height: 80px;
+    }
+
+}
+
+
+
