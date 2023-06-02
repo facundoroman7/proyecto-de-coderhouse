@@ -3,7 +3,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: map-get($colors, tertiary);
     /* top: 0;
     position: sticky; */
     margin-top: 0;
@@ -14,7 +14,7 @@ nav{
         align-items: center;
          a{
             margin: 10px;
-            color: #3f3844;
+            color: $bg-brown;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
@@ -22,7 +22,7 @@ nav{
             
         }
         a:hover{
-            color: $bg-second;
+            color: map-get($colors, secondary);
             transition: all 0.5s ease;
         }
     }

@@ -1,9 +1,9 @@
 header{
-    background-color: $bg-color;
+    background-color: map-get($colors, primary);
     padding: 10px;
     padding-bottom: 0;
     text-align: center;
-    color: $bg-white;
+    color: map-get($colors, tertiary);
 
     p{
         font-size: 18px;

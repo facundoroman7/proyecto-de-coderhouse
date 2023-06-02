@@ -10,7 +10,7 @@
     }
 
     h2{
-        color:$bg-second;
+        color:map-get($colors, secondary);
     }
     
 }

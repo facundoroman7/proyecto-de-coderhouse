@@ -1,7 +1,7 @@
 .pag-comencemos{
 
     h2{
-        color: $bg-second;
+        color: map-get($colors, secondary);
     }
     p{
         font-size: 1.3rem;
@@ -12,7 +12,7 @@
 .pag-comencemos-2{
     h2{
         text-align: center;
-        color: $bg-second;
+        color: map-get($colors, secondary);
         margin: 20px;
         
     }
@@ -28,7 +28,7 @@
     padding: 20px;
     
     h2{
-        color: $bg-second;
+        color: map-get($colors, secondary);
     }
 
     p{

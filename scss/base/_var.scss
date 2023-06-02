@@ -1,8 +1,15 @@
 
-$bg-color:#276b44;
-$bg-second:#41a46c;
-$bg-white:#fff;
+$bg-brown:#3f3844;
 
 $font-serfif:  'Avenir W01',Avenir,'Avenir Next',Helvetica,Arial,sans-serif;
 
+$colors: (
+  primary: #276b44,
+  secondary: #41a46c,
+  tertiary: #fff,
+);
+
+.button {
+  background-color: map-get($colors, primary);
+}
 

@@ -1,10 +1,10 @@
 .btn-mio{
-    background-color: $bg-color;
-    color: $bg-white;
+    background-color: map-get($colors, primary);
+    color: map-get($colors, tertiary);
 
     .btn-mio:hover{
-        background-color: $bg-white;
-        color: $bg-color;
+        background-color: map-get($colors, tertiary);
+        color: map-get($colors, primary);
         transition: all 0.4s ease-in;
     }
 }

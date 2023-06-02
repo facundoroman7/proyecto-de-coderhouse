@@ -1,3 +1,7 @@
+.button {
+  background-color: #276b44;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +43,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #fff;
   /* top: 0;
   position: sticky; */
   margin-top: 0;
@@ -95,21 +99,21 @@ nav ul a:hover {
 }
 .section-de-tarjetas .carta {
   padding: 50px;
-  margin: 20px;
+  margin-bottom: 12px;
   border-radius: 10px;
 }
 .section-de-tarjetas .carta:first-child {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../proyecto-coderhouse-facu/imagenes/foto-caracteristicas.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/foto-caracteristicas.png");
   background-position: center center;
   background-size: cover;
 }
 .section-de-tarjetas .carta:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../proyecto-coderhouse-facu/imagenes/front-end.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/front-end.png");
   background-position: center center;
   background-size: cover;
 }
 .section-de-tarjetas .carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../proyecto-coderhouse-facu/imagenes/full-stack.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/full-stack.png");
   background-position: center center;
   background-size: cover;
 }
@@ -122,9 +126,11 @@ article h2 {
   font-size: 30px;
   color: #41a46c;
 }
+article .margin, article .section-3 p, .section-3 article p, article p {
+  margin: 10px;
+}
 article p {
   font-size: 25px;
-  margin: 10px;
 }
 
 .section-3 {
@@ -135,7 +141,6 @@ article p {
 }
 .section-3 p {
   font-size: 20px;
-  margin: 10px;
 }
 .section-3 img {
   padding: 10px;
@@ -157,7 +162,7 @@ footer a {
   color: #41a46c;
 }
 footer a:hover {
-  color: white;
+  color: #fff;
   transition: all 0.3s ease-in;
 }
 footer .copyright {
@@ -179,7 +184,9 @@ footer .copyright {
   gap: 25px;
 }
 .section-de-sitios-3 img {
+  width: 400px;
   border-radius: 10px;
+  margin: 8px;
 }
 .section-de-sitios-3 .section-de-sitios-ul li:hover {
   transform: scale(0.9);
@@ -271,9 +278,6 @@ footer .copyright {
     display: flex;
     flex-direction: column;
   }
-  .section-3 img {
-    width: 300px;
-  }
   .section-3 p {
     display: none;
   }
@@ -293,6 +297,9 @@ footer .copyright {
   .section-de-tarjetas .tarjetas {
     display: flex;
     justify-content: center;
+  }
+  .carta {
+    margin: 20px;
   }
   .section-de-tarjetas p {
     display: block;

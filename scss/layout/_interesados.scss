@@ -30,7 +30,7 @@
 
 .section-de-interesados{
     a{
-        color: $bg-second;
+        color: map-get($colors, secondary);
     }
 }
 

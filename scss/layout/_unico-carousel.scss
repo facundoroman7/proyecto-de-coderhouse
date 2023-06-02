@@ -1,7 +1,7 @@
 /*titulo principal*/
 .unico-carousel{
     h1{
-        color: $bg-second;
+        color: map-get($colors, secondary);
         font-family:'Sono', sans-serif;
         font-size: 30px;
     }

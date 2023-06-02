@@ -1,8 +1,8 @@
 /*cambio de pagina (sitios)*/
 
 .section-de-sitios-3{
-    background-color: $bg-second;
-    color: $bg-white;
+    background-color: map-get($colors, secondary);
+    color: map-get($colors, tertiary);
 
     .section-de-sitios-ul{
         margin-bottom: 30px;
@@ -13,7 +13,9 @@
     
 
     img{
+        width: 400px;
         border-radius: 10px;
+        margin: 8px;
     
     }
 
